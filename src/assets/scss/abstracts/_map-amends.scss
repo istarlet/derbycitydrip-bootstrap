@@ -1,7 +1,17 @@
 // Create your own map
-// $custom-colors: (
-//   "custom-color": #900
-// );
+$custom-colors: (
+  "trappeddarkness": #091b21,
+  "freinachtblack": #233237,
+  "hornblendegreen": #204d48,
+  "pistachiocream": #d5e2e2,
+  "duqqabrown": #45230f,
+  "deer": #b98957,
+  "beef-hotpot": #a6592f,
+  "xanthous": #f2b129,
+  "white-smoke": #f2f2f2,
+  "lead": #222222,
+  "africangray": #91999b,
+);
 
 // Merge the maps
-// $theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-merge($theme-colors, $custom-colors);
