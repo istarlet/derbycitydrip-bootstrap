@@ -1,69 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parcel / Bootstrap Boilerplate</title>
     <!-- CSS Main File -->
-    <link rel="stylesheet" href="./assets/scss/main.scss">
-
-</head>
-<body>
-  
-  <!-- Example Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
+    <link rel="stylesheet" href="./assets/scss/main.scss" />
+  </head>
+  <body>
+    <!-- Example Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/images/derbycitydrip-logo.svg"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Disabled</a>
+            </li>
+          </ul>
         </div>
-  </nav>
-  <!-- /Example Navbar -->
+      </div>
+    </nav>
+    <!-- /Example Navbar -->
 
-  
-  <main>
-    <!-- Hero Section -->
+    <!-- Header Section -->
     <div class="container-fluid bg-primary">
       <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img
-              src="./assets/images/coffee-mug-saucer-hero.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="coffee mug with saucer"
-              width="700"
-              height="500"
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3 text-uppercase">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3 text-uppercase">
               Experience the best cup in town
             </h1>
             <p class="lead">
@@ -79,17 +62,65 @@
               </button>
             </div>
           </div>
+          <div class="col-md-10 mx-auto col-lg-6">
+            <img
+              src="./assets/images/coffee-mug-saucer-hero.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="coffee mug with saucer"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Hero Section End -->
 
+    <main>
+      <!-- Hero Section 
+      <div class="container-fluid bg-primary">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="./assets/images/coffee-mug-saucer-hero.png"
+                class="d-block mx-lg-auto img-fluid"
+                alt="coffee mug with saucer"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold lh-1 mb-3 text-uppercase">
+                Experience the best cup in town
+              </h1>
+              <p class="lead">
+                Single origin mazagran, half and half robust pumpkin spice aged
+                con panna. Sugar shop ut a single shot steamed half and half.
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  type="button"
+                  class="btn btn-duqqabrown btn-lg px-4 me-md-2 text-uppercase fw-bold"
+                >
+                  View Menu
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       Hero Section End -->
+
       <!-- Finely Roasted Coffee Section -->
-      <section class="container-fluid">
+      <section class="container-fluid bg-coffeebeans">
         <div class="container text-center">
-          <h2 class="fw-bold text-uppercase">Our Finely Roasted Coffees</h2>
-          <p class="">
+          <h2 class="fw-bold text-uppercase text-light">Our Finely Roasted Coffees</h2>
+          <p class="lead text-light">
             Flavour sit brewed irish qui roast americano mocha single shot
             affogato. Aged, steamed roast white saucer aroma decaffeinated.
             Caramelization skinny brewed, foam extra eu latte cream grounds to
@@ -106,10 +137,10 @@
         <div class="row">
           <div class="col-sm-6">
             <div
-              class="d-flex justify-content-between text-uppercase fw-bold text-duqqabrown"
+              class="d-flex justify-content-between text-uppercase text-duqqabrown"
             >
-              <h3>Loose-Leaf Tea</h3>
-              <h3>4.99</h3>
+              <h3 class="fw-bold">Loose-Leaf Tea</h3>
+              <h3 class="fw-bold">4.99</h3>
             </div>
             <p>
               Carmelization skinny brewed, foam extra eu latte cream grounds to
@@ -121,8 +152,8 @@
             <div
               class="d-flex justify-content-between text-uppercase fw-bold text-duqqabrown"
             >
-              <h3>Tea Au Lait</h3>
-              <h3>3.99</h3>
+              <h3 class="fw-bold">Tea Au Lait</h3>
+              <h3 class="fw-bold">3.99</h3>
             </div>
             <p>
               Carmelization skinny brewed, foam extra eu latte cream grounds to
@@ -134,8 +165,8 @@
             <div
               class="d-flex justify-content-between text-uppercase fw-bold text-duqqabrown"
             >
-              <h3>Iced</h3>
-              <h3>4.99</h3>
+              <h3 class="fw-bold">Iced</h3>
+              <h3 class="fw-bold">4.99</h3>
             </div>
             <p>
               Carmelization skinny brewed, foam extra eu latte cream grounds to
@@ -147,8 +178,8 @@
             <div
               class="d-flex justify-content-between text-uppercase fw-bold text-duqqabrown"
             >
-              <h3>Matcha Latte</h3>
-              <h3>3.99</h3>
+              <h3 class="fw-bold">Matcha Latte</h3>
+              <h3 class="fw-bold">3.99</h3>
             </div>
             <p>
               Carmelization skinny brewed, foam extra eu latte cream grounds to
@@ -159,10 +190,9 @@
       </section>
 
       <!-- Tea Menu Items Section End -->
+    </main>
 
-</main>
-
-  <!-- JS Mainfile -->
-  <script type="module" src="./assets/js/main.js"></script>
-</body>
+    <!-- JS Mainfile -->
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
 </html>

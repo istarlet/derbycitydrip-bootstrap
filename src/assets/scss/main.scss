@@ -12,6 +12,13 @@
 ***********************
 */
 
+.bg-coffeebeans {
+  background-image: url("../images/coffee-beans-bg.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 // Import our variable overrides.
 // Go here to set custom values for Bootstrap vars
@@ -28,7 +35,7 @@
 
 // Import our utility overrides
 // Go here to amend or set custom utilities using the Bootstrap API
-@import './utilities/bootstrap-api-utilities';
+@import "./utilities/bootstrap-api-utilities";
 
 // Bootstrap main import
 @import "~bootstrap/scss/bootstrap";
